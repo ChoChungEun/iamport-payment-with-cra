@@ -1,7 +1,7 @@
 import React from "react";
 
 const Payment = () => {
-  // index.html 에 두개의 script를 넣어줘야함
+  // index.html 에 두개의 script를 넣어줘야 결제 기능 작동함
 
   // jQuery
   // <script
@@ -40,7 +40,7 @@ const Payment = () => {
     IMP.request_pay(data, requestPayCallback);
   }
 
-  // 콜백 함수 정의ㅌㅈ
+  // 콜백 함수 정의
   function requestPayCallback(response) {
     const { success, merchant_uid, error_msg } = response;
 
