@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/iamport-payment-with-cra/static/js/main.ca7a4422.js",
+    "index.html": "/iamport-payment-with-cra/index.html",
+    "main.ca7a4422.js.map": "/iamport-payment-with-cra/static/js/main.ca7a4422.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ca7a4422.js"
+  ]
+}
